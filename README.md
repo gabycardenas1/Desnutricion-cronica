@@ -1,10 +1,10 @@
-# 🧪 Modelo Logit para Análisis de Desnutrición Crónica Infantil
+# Modelo Logit para Análisis de Desnutrición Crónica Infantil
 
 Este proyecto implementa un **modelo de regresión logística (Logit)** para analizar la **prevalencia de desnutrición crónica en niñas ecuatorianas**, con especial atención a la variable **etnia** como factor clave. El análisis se basa en una muestra del ENDI (Encuesta Nacional de Desnutrición Infantil), y tiene como objetivo identificar grupos con mayor riesgo según características socioeconómicas y demográficas.
 
 ---
 
-## 📂 Estructura del análisis
+## Estructura del análisis
 
 ### 1. Exploración de datos
 - Filtrado de los datos para trabajar exclusivamente con **niñas**.
@@ -31,7 +31,7 @@ Este proyecto implementa un **modelo de regresión logística (Logit)** para ana
 
 ---
 
-## 📈 Resultados clave
+## Resultados clave
 
 - La etnia **Mestizo/Blanco** muestra una asociación significativa y negativa con la desnutrición crónica en niñas.
 - La precisión del modelo pasa de **0.81 (entrenamiento/prueba)** a **0.79** con validación cruzada.
@@ -39,7 +39,7 @@ Este proyecto implementa un **modelo de regresión logística (Logit)** para ana
 
 ---
 
-## 📦 Requisitos
+## Requisitos
 
 - Python 3.x  
 - pandas  
@@ -50,7 +50,7 @@ Este proyecto implementa un **modelo de regresión logística (Logit)** para ana
 
 ---
 
-## 📁 Datos
+## Datos
 
 - `sample_endi_model_10p.txt`: Submuestra del ENDI con información de salud, etnia y contexto socioeconómico.
 
